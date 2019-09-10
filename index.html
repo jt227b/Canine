@@ -10,13 +10,16 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Ekko-Lightbox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
   <!-- Custom Style Sheet CSS -->
   <link rel="stylesheet" href="CSS/style.css">
-  <title>Bootstrap Theme</title>
+  <title>Canine Website</title>
 </head>
 
 <body>
-  <!-- Start Here -->
+  <!-- Navbar Section -->
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
       <a href="index.html" class="navbar-brand">Canine</a>
@@ -57,20 +60,19 @@
         <div class="carousel-item carousel-image-1 active">
           <div class="container">
             <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Heading One</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi provident
-                placeat reiciendis quae necessitatibus optio illo nam! Beatae, similique?</p>
-              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+              <h1 class="display-3">All-Inclusive Pet Sitting Visits</h1>
+              <p class="lead">We take care of your home in addition to your pets</p>
+              <a href="services.html" class="btn btn-danger btn-lg">Learn More</a>
             </div>
           </div>
         </div>
 
         <div class="carousel-item carousel-image-2">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block mb-5">
-              <h1 class="display-3">Heading Two</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi provident
-                placeat reiciendis quae necessitatibus optio illo nam! Beatae, similique?</p>
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Lockout Service</h1>
+              <p class="lead">Trained for medical emergencies with access to company owner's personal cellphone 24/7
+              </p>
               <a href="#" class="btn btn-primary btn-lg">Learn More</a>
             </div>
           </div>
@@ -79,9 +81,8 @@
         <div class="carousel-item carousel-image-3">
           <div class="container">
             <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Heading Three</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi provident
-                placeat reiciendis quae necessitatibus optio illo nam! Beatae, similique?</p>
+              <h1 class="display-3">Locally Owned Business</h1>
+              <p class="lead">No Holiday surcharge so you can enjoy your vacation to the fullest</p>
               <a href="#" class="btn btn-success btn-lg">Learn More</a>
             </div>
           </div>
@@ -126,7 +127,7 @@
     <div class="dark-overlay">
       <div class="row">
         <div class="col">
-          <div class="container pt-t">
+          <div class="container pt-5">
             <h1>Are you ready to get started?</h1>
             <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo
               accusamus assumenda optio soluta totam ex voluptatum enim delectus itaque!</p>
@@ -136,8 +137,111 @@
     </div>
   </section>
 
+  <!-- INFO SECTION -->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem architecto iure temporibus placeat porro
+            officiis quas consectetur molestiae maiores in!</p>
+          <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/laptop.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Meet Our Clients</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="./img/dogLap.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/dogLap.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
 
+        <div class="col-md-4">
+          <a href="./img/hamster.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/hamster.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/catFinger.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/catFinger.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="./img/bunny.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/bunny.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/horse.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="561"
+            data-width="561">
+            <img src="./img/horse.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/fish.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="./img/fish.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem magnam architecto maxime doloribus
+            repudiandae aperiam nostrum, nihil placeat officiis quaerat!</p>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+            <button class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> Canine</p>
+        </div>
+      </div>
+    </div>
+    <!-- Social Media -->
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-paypal fa-2x" aria-hidden="true" style="color: #3b7bbf"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram fa-2x" style="color: #bc2a8d"></i></a>
+      <a href="#" target="_blank"><i class="fas fa-at fa-2x" style="color: orange"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-pinterest fa-2x" style="color: red"></i></a>
+    </div>
+
+  </footer>
 
 
 
@@ -160,6 +264,10 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
+  <!-- Ekko-Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+    integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
   <script>
     // Get current year for the copyright
     $('#year').text(new Date().getFullYear());
@@ -168,6 +276,12 @@
     $('.carousel').carousel({
       interval: 6000,
       pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
   </script>
 </body>
