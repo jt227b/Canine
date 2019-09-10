@@ -1,0 +1,45 @@
+
+/* Navbar Section */
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+
+}
+
+/* Navbar Left-Line */
+.navbar .nav-item.active {
+  border-left: #555 3px solid;
+}
+
+/* SHOWCASE SLIDER */
+.carousel-item {
+  height: 91vh;
+}
+
+.carousel-image-1 {
+  background: url('../img/carousel1.jpg') no-repeat center center/cover;
+  
+}
+
+.carousel-image-2 {
+  background: url('../img/carousel2.jpg') no-repeat center center/cover;
+  
+}
+
+.carousel-image-3 {
+  background: url('../img/carousel3.jpg') no-repeat center center/cover;
+  
+}
+
+/* Home Heading Section */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}

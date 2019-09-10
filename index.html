@@ -17,6 +17,127 @@
 
 <body>
   <!-- Start Here -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Canine</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="payments.html" class="nav-link">Payments</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading One</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi provident
+                placeat reiciendis quae necessitatibus optio illo nam! Beatae, similique?</p>
+              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Heading Two</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi provident
+                placeat reiciendis quae necessitatibus optio illo nam! Beatae, similique?</p>
+              <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading Three</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi provident
+                placeat reiciendis quae necessitatibus optio illo nam! Beatae, similique?</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Home icon Section -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-home fa-3x mb-2"></i>
+          <h3>Home Visits</h3>
+          <p>Planning a vacation during the holiday or a break from work?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-taxi fa-3x mb-2"></i>
+          <h3>Pet Taxi</h3>
+          <p>Does your pet need a ride to the vet or the groomers?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-camera fa-3x mb-2"></i>
+          <h3>Daily Updates</h3>
+          <p>Worried about the status of your pet after long hours of work?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home Heading Section -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-t">
+            <h1>Are you ready to get started?</h1>
+            <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo
+              accusamus assumenda optio soluta totam ex voluptatum enim delectus itaque!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
 
 
@@ -29,6 +150,9 @@
     crossorigin="anonymous"></script>
 
   <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
@@ -39,6 +163,12 @@
   <script>
     // Get current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
   </script>
 </body>
 
