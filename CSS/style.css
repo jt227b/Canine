@@ -20,6 +20,10 @@ body {
   height: 91vh;
 }
 
+#testimonials {
+  height: 150px;
+}
+
 .carousel-image-1 {
   background: url('../img/carousel1.jpg') no-repeat center center/cover;
   
