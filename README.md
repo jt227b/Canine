@@ -1,6 +1,5 @@
 # Cozy Canine Service
-All-Inclusive Pet Sitting Visits
-We take care of your home in addition to your pets
+All-Inclusive Pet Sitting Visits. We take care of your home in addition to your pets
 
 
 ## Getting Started
@@ -11,7 +10,7 @@ Cozy Canine Services is a multiple business page that provides the user with use
 
 Click on our website to visit Cozy Canine Services:
 
-https://jt227b.github.io/Edge-Ledger/
+https://jt227b.github.io/Canine/
 
 ### Menu
 
