@@ -13,6 +13,8 @@
   <!-- Ekko-Lightbox CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
     integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
   <!-- Custom Style Sheet CSS -->
   <link rel="stylesheet" href="CSS/style.css">
   <title>Cozy Canine Services</title>
@@ -20,9 +22,15 @@
 
 <body>
   <!-- Navbar Section -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
     <div class="container">
-      <a href="index.html" class="navbar-brand">Cozy Canine Services</a>
+      <!-- Logo -->
+      <div class="logo-area">
+        <a href="index.html" class="logo">
+          <img src="./img/logoCozy.png" alt="logo" id="imgLogo"><span class="phone"> (972) 347-5335</span>
+        </a>
+      </div>
+
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -137,22 +145,7 @@
     </div>
   </section>
 
-  <!-- INFO SECTION -->
-  <section id="info" class="py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <h3>Lorem, ipsum.</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem architecto iure temporibus placeat porro
-            officiis quas consectetur molestiae maiores in!</p>
-          <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
-        </div>
-        <div class="col-md-6">
-          <img src="img/laptop.png" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- PHOTO GALLERY -->
   <section id="gallery" class="py-5">
@@ -205,23 +198,7 @@
     </div>
   </section>
 
-  <!-- NEWSLETTER -->
-  <section id="newsletter" class="text-center p-5 bg-dark text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Sign Up For Our Newsletter</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem magnam architecto maxime doloribus
-            repudiandae aperiam nostrum, nihil placeat officiis quaerat!</p>
-          <form class="form-inline justify-content-center">
-            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
-            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
-            <button class="btn btn-primary mb-2">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- FOOTER -->
   <footer id="main-footer" class="text-center p-4">
