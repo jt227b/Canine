@@ -101,6 +101,11 @@ body {
   margin-top: -50px;
 }
 
+/* About Us */
+.yellow {
+  background-color: #ffcc00 !important;
+}
+
 /* FAQ */
 #faq .card {
   border: #444;
